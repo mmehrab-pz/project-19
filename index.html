@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="asset/styles/normalize.css">
+    <link rel="stylesheet" href="asset/styles/master.css">
+    <link rel="stylesheet" href="asset/styles/local.css">
+    <script src="https://kit.fontawesome.com/25dc46b7d1.js" crossorigin="anonymous"></script>
+    <script src="asset/js/master.js"></script>
+    <title>project 19</title>
+</head>
+
+<body onscroll="navbar()">
+    <!-- ----------------------------------------------------------header----------------------------------------------------------------- -->
+    <header>
+        <span id="header-back"></span>
+        <span id="header-back-filter"></span>
+        <div id="header-left-btn" class="d-none d-lg-flex">
+            <div>
+                <img src="asset/img/nav.png" alt="">
+                <img src="asset/img/nav2.png" alt="">
+            </div>
+        </div>
+        <div id="header-right-btn" class="d-none d-lg-flex">
+            <div>
+                <img src="asset/img/nav.png" alt="">
+                <img src="asset/img/nav2.png" alt="">
+            </div>
+        </div>
+        <div id="header-banner" class="row">
+
+            <section id="header-banner-clock" class="col-4">
+                <p>
+                    <i class="bi bi-clock"></i>
+                    OPENING HOURS : <span>08:00 AM - 09:00 PM</span>
+                </p>
+            </section>
+
+            <section id="header-banner-social" class="col-4">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter"></i>
+            </section>
+
+            <section id="header-banner-location" class="col-4">
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    LOCATION : <span>55 MAIN STREET, NEW YORK</span>
+                </p>
+            </section>
+        </div>
+        <!-- -----------------------------header navbar------------------------------ -->
+        <nav id="header-nav" class="row">
+
+            <section class="col-6 col-lg-3" id="header-nav-logo">
+                <figure>
+                    <img src="asset/img/img01.png" alt="">
+                </figure>
+            </section>
+
+            <section class="d-none d-lg-flex col-6" id="header-nav-menu">
+                <ul>
+                    <li>
+                        <a href="#">home</a>
+                        <i class="bi bi-chevron-down"></i>
+                        <ul class="dropmenu">
+                            <li><a href="#">coffee house</a></li>
+                            <li><a href="#">RESTAURANT</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">about</a></li>
+
+                    <li>
+                        <a href="#">menu</a>
+                        <i class="bi bi-chevron-down"></i>
+                        <ul class="dropmenu">
+                            <li><a href="#">menu coffee</a></li>
+                            <li><a href="#">menu RESTAURANT</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">pages</a>
+                        <i class="bi bi-chevron-down"></i>
+                        <ul class="dropmenu">
+                            <li><a href="#">SERVICE</a></li>
+                            <li><a href="#">RESERVATION</a></li>
+                            <li><a href="#">HISTORY</a></li>
+                            <li><a href="#">OUR CHEFS</a></li>
+                            <li><a href="#">GALLERY</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">blog</a>
+                        <i class="bi bi-chevron-down"></i>
+                        <ul class="dropmenu">
+                            <li><a href="#">BLOG GRID</a></li>
+                            <li><a href="#">BLOG STANDARD</a></li>
+                            <li><a href="#">BLOG SINGLE</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">contacts</a></li>
+                </ul>
+            </section>
+            <section class="d-none d-lg-flex col-3" id="header-nav-btn">
+                <span class="btn-model-1">
+                    <p>book a table</p>
+                    <span></span>
+                </span>
+            </section>
+            <section class="col-6 d-lg-none" id="header-nav-mobile">
+                <span>
+                    <i class="bi bi-list"></i>
+                </span>
+            </section>
+        </nav>
+        <!-- -----------------------------header content------------------------------ -->
+        <section id="header-content">
+            <p>welcome to the kaffen</p>
+            <h1>the london coffee house</h1>
+            <div>
+                <span class="btn-model-1">
+                    <p>explore more</p>
+                    <span></span>
+                </span>
+                <span class="btn-model-2">
+                    <p>explore more</p>
+                    <span></span>
+                </span>
+
+            </div>
+        </section>
+    </header>
+    <!-- ----------------------------------------------------------main----------------------------------------------------------------- -->
+    <main>
+        <!-- -----------------------------about------------------------------ -->
+        <section id="about">
+            <div id="about-detail" class="row">
+                <section id="about-detail-text" class="col-12 col-lg-6">
+                    <div>
+                        <h6>about us</h6>
+                        <h3>
+                            Organic & Fresh Coffee
+                            Provider Center
+                        </h3>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium,
+                            totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi architecto beatae
+                            vitae
+                            dicta sunt explicabo. Nemo enim ipsluptatem quia voluptas sit aspernatur aut odit aut fugit
+                            sed
+                            quia consequuntur magni dolores eos qui ratione
+                        </p>
+                        <span>
+                            <figure>
+                                <img src="asset/img/img05.png" alt="">
+                            </figure>
+                            <p>
+                                <i>Quis autem vel eum iure reprehenderit in ealuptate velit esse molestiae</i>
+                            </p>
+                        </span>
+                    </div>
+                </section>
+                <section id="about-detail-img" class="col-12 col-lg-6">
+                    <figure>
+                        <img src="asset/img/img06.png" alt="">
+                    </figure>
+                </section>
+            </div>
+
+            <div id="about-cards">
+                <section class="about-card">
+                    <figure>
+                        <img src="asset/img/img07.jpg" alt="">
+                    </figure>
+                    <span></span>
+                    <div>
+                        <i class="fa-solid fa-utensils"></i>
+                        <p>restaurant menu</p>
+                    </div>
+                </section>
+                <section class="about-card">
+                    <figure>
+                        <img src="asset/img/img08.jpg" alt="">
+                    </figure>
+                    <span></span>
+                    <div>
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <p>coffee menu</p>
+                    </div>
+                </section>
+                <section class="about-card">
+                    <figure>
+                        <img src="asset/img/img09.jpg" alt="">
+                    </figure>
+                    <span></span>
+                    <div>
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                        <p>food services</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- -----------------------------coffee menu------------------------------ -->
+        <section id="menu">
+            <div id="menu-title">
+                <p>CHOOSE BEST COFFEE</p>
+                <h3>Kaffen Popular Coffee Menu</h3>
+            </div>
+            <div id="menu-items" class="row">
+                <section class="col-12 col-lg-6 menu-itam">
+                    <figure>
+                        <img src="asset/img/img12.jpg" alt="">
+                    </figure>
+                    <div>
+                        <h3>Americano Coffee</h3>
+                        <p>2/3 espresso, 1/3 streamed milk</p>
+                        <h4>$4.9</h4>
+                    </div>
+                </section>
+                <section class="col-12 col-lg-6 menu-itam">
+                    <figure>
+                        <img src="asset/img/img13.jpg" alt="">
+                    </figure>
+                    <div>
+                        <h3>Espresso Coffee</h3>
+                        <p>2/3 espresso, 1/3 streamed milk</p>
+                        <h4>$4.9</h4>
+                    </div>
+                </section>
+                <section class="col-12 col-lg-6 menu-itam">
+                    <figure>
+                        <img src="asset/img/img14.jpg" alt="">
+                    </figure>
+                    <div>
+                        <h3>Barista Pouring Syrup</h3>
+                        <p>2/3 espresso, 1/3 streamed milk</p>
+                        <h4>$3.5</h4>
+                    </div>
+                </section>
+                <section class="col-12 col-lg-6 menu-itam">
+                    <figure>
+                        <img src="asset/img/img15.jpg" alt="">
+                    </figure>
+                    <div>
+                        <h3>Cold - Coffee</h3>
+                        <p>2/3 espresso, 1/3 streamed milk</p>
+                        <h4>$6.0</h4>
+                    </div>
+                </section>
+                <section class="col-12 col-lg-6 menu-itam">
+                    <figure>
+                        <img src="asset/img/img16.jpg" alt="">
+                    </figure>
+                    <div>
+                        <h3>Cappuccino Arabica</h3>
+                        <p>2/3 espresso, 1/3 streamed milk</p>
+                        <h4>$2.8</h4>
+                    </div>
+                </section>
+                <section class="col-12 col-lg-6 menu-itam">
+                    <figure>
+                        <img src="asset/img/img17.jpg" alt="">
+                    </figure>
+                    <div>
+                        <h3>Milk Cream Coffee</h3>
+                        <p>2/3 espresso, 1/3 streamed milk</p>
+                        <h4>$7.5</h4>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- -----------------------------why choose us------------------------------ -->
+        <section id="why" class="row">
+            <section id="why-img" class="col-12 col-lg-6">
+                <figure>
+                    <img src="asset/img/img21.jpg" alt="">
+                    <span class="d-none d-xxl-block">
+                        <img src="asset/img/img18.png" alt="">
+                    </span>
+                </figure>
+            </section>
+            <section id="why-title" class="col-12 col-lg-6">
+                <span id="why-title-back-1" class="d-none d-xxl-block">
+                    <img src="asset/img/img19.png" alt="">
+                </span>
+                <span id="why-title-back-2" class="d-none d-xxl-block">
+                    <img src="asset/img/img20.png" alt="">
+                </span>
+                <div>
+                    <h6>WHY CHOOSE US</h6>
+                    <h3>New London Coffee Founded For Extraordinary Test</h3>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium,
+                        totam rem aperiam eaque ipsa quae abillo inventore veritatis
+                    </p>
+                    <span>
+                        <figure>
+                            <img src="asset/img/img22.png" alt="">
+                        </figure>
+                        <div>
+                            <h3>Natural Coffee Beans</h3>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque
+                            </p>
+                        </div>
+                    </span>
+                    <span>
+                        <figure>
+                            <img src="asset/img/img23.png" alt="">
+                        </figure>
+                        <div>
+                            <h3>100% ISO Certification</h3>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque
+                            </p>
+                        </div>
+                    </span>
+                    <div class="btn-model-1">
+                        <p>explore more</p>
+                        <span></span>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- -----------------------------gallery------------------------------ -->
+        <section id="gallery">
+            <div id="gallery-title">
+                <p>gallery</p>
+                <h3>Kaffen items gallery</h3>
+            </div>
+            <div id="gallery-cards">
+                <div class="gallery-card">
+                    <figure>
+                        <img src="asset/img/img24.jpg" alt="">
+                    </figure>
+                    <span></span>
+                    <div>
+                        latte
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <figure>
+                        <img src="asset/img/img25.jpg" alt="">
+                    </figure>
+                    <span></span>
+                    <div>
+                        Cappuccino
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <figure>
+                        <img src="asset/img/img26.jpg" alt="">
+                    </figure>
+                    <span></span>
+                    <div>
+                        iced coffee
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <figure>
+                        <img src="asset/img/img27.jpg" alt="">
+                    </figure>
+                    <span></span>
+                    <div>
+                        espresso
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -----------------------------client------------------------------ -->
+        <section id="client">
+            <div id="client-title">
+                <p>CUSTOMER FEEDBACK</p>
+                <h3>What Our Clients Say</h3>
+            </div>
+            <div id="client-cards" class="row">
+                <section class="col-12 col-md-6 col-lg-3">
+                    <div class="client-card">
+                        <figure>
+                            <img src="asset/img/img30.jpg" alt="">
+                        </figure>
+                        <section id="client-card-star">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </section>
+                        <section id="client-card-text">
+                            <p>
+                                Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium
+                                totam remriam eaque quae abillo
+                            </p>
+                        </section>
+                        <section id="client-card-name">
+                            <h3>Frederick S. France</h3>
+                            <p>web deigner</p>
+                        </section>
+                    </div>
+                </section>
+                <section class="col-12 col-md-6 col-lg-3">
+                    <div class="client-card">
+                        <figure>
+                            <img src="asset/img/img31.jpg" alt="">
+                        </figure>
+                        <section id="client-card-star">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </section>
+                        <section id="client-card-text">
+                            <p>
+                                Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium
+                                totam remriam eaque quae abillo
+                            </p>
+                        </section>
+                        <section id="client-card-name">
+                            <h3>FJames M. London</h3>
+                            <p>lawyer</p>
+                        </section>
+                    </div>
+                </section>
+                <section class="col-12 col-md-6 col-lg-3">
+                    <div class="client-card">
+                        <figure>
+                            <img src="asset/img/img32.jpg" alt="">
+                        </figure>
+                        <section id="client-card-star">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </section>
+                        <section id="client-card-text">
+                            <p>
+                                Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium
+                                totam remriam eaque quae abillo
+                            </p>
+                        </section>
+                        <section id="client-card-name">
+                            <h3>Olivia D. New York</h3>
+                            <p>dentist</p>
+                        </section>
+                    </div>
+                </section>
+                <section class="col-12 col-md-6 col-lg-3">
+                    <div class="client-card">
+                        <figure>
+                            <img src="asset/img/img30.jpg" alt="">
+                        </figure>
+                        <section id="client-card-star">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </section>
+                        <section id="client-card-text">
+                            <p>
+                                Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium
+                                totam remriam eaque quae abillo
+                            </p>
+                        </section>
+                        <section id="client-card-name">
+                            <h3>Frederick S. France</h3>
+                            <p>web deigner</p>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- -----------------------------data------------------------------ -->
+        <section id="data">
+            <div>
+                <p>256+</p>
+                <div>
+                    <h3>Premium Clients</h3>
+                    <p>Sed ut perspiciatis unde</p>
+                </div>
+            </div>
+            <div>
+                <p>362+</p>
+                <div>
+                    <h3>Expert Members</h3>
+                    <p>Sed ut perspiciatis unde</p>
+                </div>
+            </div>
+            <div>
+                <p>753+</p>
+                <div>
+                    <h3>Winning Awards</h3>
+                    <p>Sed ut perspiciatis unde</p>
+                </div>
+            </div>
+        </section>
+        <!-- -----------------------------update------------------------------ -->
+        <section id="update">
+            <div id="update-title">
+                <p>GET EVERY SINGLE UPDATE</p>
+                <h3>Read Some Latest Blog & News</h3>
+            </div>
+            <div id="update-cards" class="row">
+                <section class="col-12 col-md-6 col-lg-4">
+                    <div class="update-card">
+                        <figure id="update-card-back">
+                            <img src="asset/img/img33.jpg" alt="">
+                        </figure>
+                        <span>
+                            <div id="update-card-text">
+                                <h3>
+                                    SWR React Hooks With Next Increm Ental Static Regeneration
+                                </h3>
+                                <div>
+                                    <p>
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        25 sep 2021
+                                    </p>
+                                    <p>
+                                        <i class="fa-regular fa-comments"></i>
+                                        comments(7)
+                                    </p>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </section>
+                <section class="col-12 col-md-6 col-lg-4">
+                    <div class="update-card">
+                        <figure id="update-card-back">
+                            <img src="asset/img/img34.jpg" alt="">
+                        </figure>
+                        <span>
+                            <div id="update-card-text">
+                                <h3>
+                                    Decisions For Building Flexible Components DevTools Browser
+                                </h3>
+                                <div>
+                                    <p>
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        25 sep 2021
+                                    </p>
+                                    <p>
+                                        <i class="fa-regular fa-comments"></i>
+                                        comments(7)
+                                    </p>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </section>
+                <section class="col-12 col-md-6 col-lg-4">
+                    <div class="update-card">
+                        <figure id="update-card-back">
+                            <img src="asset/img/img35.jpg" alt="">
+                        </figure>
+                        <span>
+                            <div id="update-card-text">
+                                <h3>
+                                    SWR React Hooks With Next Increm Ental Static Regeneration
+                                </h3>
+                                <div>
+                                    <p>
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        25 sep 2021
+                                    </p>
+                                    <p>
+                                        <i class="fa-regular fa-comments"></i>
+                                        comments(7)
+                                    </p>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </section>
+            </div>
+            <div id="update-btn">
+                <span class="btn-model-1">
+                    <p>view all</p>
+                    <span></span>
+                </span>
+            </div>
+        </section>
+        <!-- -----------------------------booking------------------------------ -->
+        <section id="booking">
+            <span id="booking-back-1"></span>
+            <span id="booking-back-2"></span>
+            <div>
+                <section id="booking-text">
+                    <p>
+                        NEED A TABLE ON COFFEE HOUSE
+                    </p>
+                    <h3>
+                        Booking Table For Your & Family Members
+                    </h3>
+                </section>
+                <span class="btn-model-1">
+                    <p>booking table</p>
+                    <span></span>
+                </span>
+            </div>
+        </section>
+    </main>
+    <!-- ----------------------------------------------------------footer----------------------------------------------------------------- -->
+    <footer>
+        <section id="footer-content" class="row">
+            <div id="footer-logo" class="col-12 col-md-6 col-lg-3">
+                <figure>
+                    <img src="asset/img/img01.png" alt="">
+                </figure>
+            </div>
+            <div id="footer-hours" class="col-12 col-md-6 col-lg-3">
+                <h3>Working Hours</h3>
+                <ul>
+                    <li>
+                        <span></span>
+                        Sunday - Thursday
+                        <p>08:00 am - 09:00pm</p>
+                    </li>
+                    <li>
+                        <span></span>
+                        Only Friday
+                        <p>03:00 pm - 09:00pm</p>
+                    </li>
+                    <li>
+                        Saturday Close
+                    </li>
+                </ul>
+            </div>
+            <div id="footer-contact" class="col-12 col-md-6 col-lg-3">
+                <h3>
+                    Contact Us
+                </h3>
+                <ul>
+                    <li>
+                        <i class="bi bi-geo-alt"></i>
+                        <div>
+                            <h6>Location :</h6>
+                            <p>55 Main Street, New York</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="bi bi-envelope-paper"></i>
+                        <div>
+                            <h6>Email Address :</h6>
+                            <p>mmehrab.pk@gmail.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="bi bi-telephone"></i>
+                        <div>
+                            <h6>Phone Number :</h6>
+                            <p>+98(930)9791544</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer-gallery" class="col-12 col-md-6 col-lg-3">
+                <h3>gallery</h3>
+                <div class="row">
+                    <section class="col-4">
+                        <figure>
+                            <img src="asset/img/img24.jpg" alt="">
+                        </figure>
+                    </section>
+                    <section class="col-4">
+                        <figure>
+                            <img src="asset/img/img25.jpg" alt="">
+                        </figure>
+                    </section>
+                    <section class="col-4">
+                        <figure>
+                            <img src="asset/img/img26.jpg" alt="">
+                        </figure>
+                    </section>
+                    <section class="col-4">
+                        <figure>
+                            <img src="asset/img/img27.jpg" alt="">
+                        </figure>
+                    </section>
+                    <section class="col-4">
+                        <figure>
+                            <img src="asset/img/img28.jpg" alt="">
+                        </figure>
+                    </section>
+                    <section class="col-4">
+                        <figure>
+                            <img src="asset/img/img24.jpg" alt="">
+                        </figure>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section id="footer-mehrab">
+            <p style="border-right: 1px solid #ff8a00; padding-right: 5px;">mehrab poorzakaria</p>
+            <p style="padding-left: 5px;">2023 08 July</p>
+        </section>
+    </footer>
+</body>
+
+</html>

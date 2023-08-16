@@ -1,0 +1,486 @@
+@media screen and (max-width: 576px) {
+  #header-banner {
+    display: none;
+  }
+  #header-content {
+    padding: 188px 0;
+    width: 100%;
+    margin-left: 0%;
+    align-items: center;
+  }
+  #header-content > p {
+    text-align: center;
+  }
+  #header-content > h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+  #about {
+    width: 100%;
+    padding: 80px 0;
+  }
+  #about-detail-text {
+    padding-left: 0%;
+  }
+  #about-detail-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-detail-img > figure {
+    transform: scale(0.7);
+  }
+  #about-cards {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px auto 0 auto;
+  }
+  #menu-items {
+    width: 95%;
+  }
+  #why {
+    padding: 100px 0;
+  }
+  #why-img {
+    justify-content: center;
+  }
+  #why-img > figure {
+    height: 400px;
+    width: 90%;
+  }
+  #why-title {
+    padding-left: 5%;
+    margin-top: 50px;
+  }
+  #why-title > div {
+    width: auto;
+  }
+  #client-cards {
+    width: 100%;
+  }
+  #update-title {
+    padding: 20px;
+  }
+  #update-cards {
+    width: 100%;
+  }
+  #update-cards > section {
+    margin-top: 40px;
+  }
+  #booking {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+  }
+  #booking > div {
+    width: 95%;
+    flex-direction: column;
+    align-items: start;
+  }
+  #booking > div > span {
+    margin-top: 40px;
+  }
+  #footer-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #footer-content > div {
+    height: 240px;
+    margin-top: 50px;
+  }
+  #footer-logo {
+    height: 50px !important;
+  }
+  #footer-mehrab {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 576px) {
+  #header-banner {
+    display: none;
+  }
+  #header-content {
+    padding: 188px 0;
+    width: 100%;
+    margin-left: 0%;
+    align-items: center;
+  }
+  #header-content > p {
+    text-align: center;
+  }
+  #header-content > h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+  #about {
+    width: 100%;
+    padding: 80px 0;
+  }
+  #about-detail-text {
+    padding-left: 0%;
+  }
+  #about-detail-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-detail-img > figure {
+    transform: scale(0.7);
+  }
+  #about-cards {
+    width: 90%;
+    margin: 50px auto 0 auto;
+  }
+  #menu-items {
+    width: 95%;
+  }
+  #why {
+    padding: 100px 0;
+  }
+  #why-img {
+    justify-content: center;
+  }
+  #why-img > figure {
+    height: 400px;
+    width: 90%;
+  }
+  #why-title {
+    padding-left: 5%;
+    margin-top: 50px;
+  }
+  #why-title > div {
+    width: auto;
+  }
+  #client-cards {
+    width: 100%;
+  }
+  #update-title {
+    padding: 20px;
+  }
+  #update-cards {
+    width: 100%;
+  }
+  #update-cards > section {
+    margin-top: 40px;
+  }
+  #booking {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+  }
+  #booking > div {
+    width: 95%;
+    flex-direction: column;
+    align-items: start;
+  }
+  #booking > div > span {
+    margin-top: 40px;
+  }
+  #footer-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #footer-content > div {
+    height: 240px;
+    margin-top: 50px;
+  }
+  #footer-logo {
+    height: 50px !important;
+  }
+  #footer-mehrab {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #why {
+    padding: 100px 0;
+  }
+  #why-img {
+    justify-content: center;
+  }
+  #why-img > figure {
+    height: 700px;
+    width: 90%;
+  }
+  #why-title {
+    padding-left: 5%;
+    margin-top: 50px;
+  }
+  #why-title > div {
+    width: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  #header-banner {
+    display: flex;
+  }
+  #header-content {
+    padding: 188px 0;
+    width: 100%;
+    margin-left: 0%;
+    align-items: center;
+  }
+  #header-content > p {
+    text-align: center;
+  }
+  #header-content > h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  #why {
+    padding: 150px 0;
+  }
+  #why-img {
+    justify-content: end;
+  }
+  #why-img > figure {
+    height: 700px;
+    width: 90%;
+  }
+  #why-title {
+    padding-left: 5%;
+    margin-top: 0px;
+  }
+  #why-title > div {
+    width: auto;
+  }
+  #booking {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+  }
+  #booking > div {
+    width: 95%;
+    flex-direction: row;
+    align-items: center;
+  }
+  #booking > div > span {
+    margin-top: 0px;
+  }
+  #footer-content {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #footer-content > div {
+    height: 240px;
+    margin-top: 50px;
+  }
+  #footer-logo {
+    height: 50px !important;
+  }
+  #footer-mehrab {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #about {
+    width: 100%;
+    padding: 80px 0;
+  }
+  #about-detail-text {
+    padding-left: 0%;
+  }
+  #about-detail-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-detail-img > figure {
+    transform: scale(0.8);
+  }
+  #about-cards {
+    width: 100%;
+    margin: 50px auto 0 auto;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #header-content {
+    padding: 138px 0;
+    width: 40%;
+    margin-left: 20%;
+    align-items: start;
+  }
+  #header-content > p {
+    text-align: start;
+  }
+  #header-content > h1 {
+    font-size: 100px;
+    text-align: start;
+  }
+  #about {
+    width: 100%;
+    padding: 80px 0;
+  }
+  #about-detail-text {
+    padding-left: 0%;
+  }
+  #about-detail-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-detail-img > figure {
+    transform: scale(0.9);
+  }
+  #about-cards {
+    width: 90%;
+    margin: 50px auto 0 auto;
+  }
+  #menu-items {
+    width: 80%;
+  }
+  #why {
+    padding: 150px 0;
+  }
+  #why-img {
+    justify-content: end;
+  }
+  #why-img > figure {
+    height: 700px;
+    width: 80%;
+  }
+  #why-title {
+    padding-left: 5%;
+    margin-top: 0px;
+  }
+  #why-title > div {
+    width: 450px;
+  }
+  #gallery-cards {
+    width: 60%;
+  }
+  #client-cards {
+    width: 85%;
+  }
+  #update-title {
+    padding: 0px;
+  }
+  #update-cards {
+    width: 80%;
+  }
+  #update-cards > section {
+    margin-top: 0px;
+  }
+  #booking {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+  }
+  #booking > div {
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+  }
+  #booking > div > span {
+    margin-top: 0px;
+  }
+  #footer-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #footer-content > div {
+    height: 240px;
+    margin-top: 50px;
+  }
+  #footer-logo {
+    height: 50px !important;
+  }
+  #footer-mehrab {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #header-content {
+    padding: 188px 0;
+    width: 40%;
+    margin-left: 20%;
+    align-items: start;
+  }
+  #header-content > p {
+    text-align: start;
+  }
+  #header-content > h1 {
+    font-size: 120px;
+    text-align: start;
+  }
+  #about-detail-text {
+    padding-left: 15%;
+  }
+  #about-detail-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  #about-detail-img > figure {
+    transform: scale(1);
+  }
+  #about-cards {
+    width: 65%;
+    margin: 100px auto 0 auto;
+  }
+  #menu-items {
+    width: 60%;
+  }
+  #why {
+    padding: 150px 0;
+  }
+  #why-img {
+    justify-content: end;
+  }
+  #why-img > figure {
+    height: 700px;
+    width: 59%;
+  }
+  #why-title {
+    padding-left: 5%;
+    margin-top: 0px;
+  }
+  #why-title > div {
+    width: 450px;
+  }
+  #gallery-cards {
+    width: 100%;
+  }
+  #client-cards {
+    width: 65%;
+  }
+  #update-title {
+    padding: 0px;
+  }
+  #update-cards {
+    width: 65%;
+  }
+  #update-cards > section {
+    margin-top: 0px;
+  }
+  #booking {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+  }
+  #booking > div {
+    width: 65%;
+    flex-direction: row;
+    align-items: center;
+  }
+  #booking > div > span {
+    margin-top: 0px;
+  }
+  #footer-content {
+    width: 65%;
+    margin: 0 auto;
+  }
+  #footer-content > div {
+    height: 240px;
+    margin-top: 50px;
+  }
+  #footer-logo {
+    height: 50px !important;
+  }
+  #footer-mehrab {
+    width: 65%;
+  }
+}/*# sourceMappingURL=local.css.map */

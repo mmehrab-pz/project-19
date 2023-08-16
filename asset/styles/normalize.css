@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../font/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../font/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../font/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url(../font/Oswald/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url(../font/Oswald/Oswald-Medium.ttf);
+}
+@font-face {
+    font-family: 'Merienda-Regular';
+    src: url(../font/Merienda/Merienda-Regular.ttf);
+}
+@font-face {
+    font-family: 'Merienda-Bold';
+    src: url(../font/Merienda/Merienda-Bold.ttf);
+}
+/* ----------------------------------------------------------------- */
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid,
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
